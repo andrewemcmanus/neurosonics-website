@@ -1,3 +1,33 @@
+
+
+// <div class="grid-x grid-padding-x">
+//             <div class="large-6 medium-6 cell">
+//               <div class="primary callout">
+//                 <p class="impulse">impulse response [neurosonics 4]</p>
+//                 <iframe src="https://player.vimeo.com/video/359321869" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+//               </div>
+//             </div>
+
+// const divElement = document.createElement('div'); //grid-padding-x ? Preserve original names for Foundation
+// divElement.classList.add('grid-x grid-padding-x');
+
+// const gridSize = document.createElement('div');
+// gridSize.classList.add('primary callout');
+
+// const primarycallout = document.createElement('div');
+// primarycallout.classList.add(impulse);
+
+// const iframe = document.createElement('iframe');
+// // really should have a separate class for styling and link info
+// iframe.setAttribute('src', "https://player.vimeo.com/video/359321869");
+
+// divElement.appendChild(gridSize);
+// gridSize.appendChild(primarycallout);
+// primarycallout.appendChild(p);
+// primarycallout.appendChild(iframe);
+// document.querySelector('.impulse').textContent = "impulse response [neurosonics 4]";
+
+
 // const container = document.querySelector('.container');
 // // console.log(container);
 // const body = document.querySelector('body');
